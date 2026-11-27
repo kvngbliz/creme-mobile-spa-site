@@ -99,9 +99,10 @@
     <section class="section dark" id="packages"><div class="wrap"><div class="section-head"><div class="eyebrow">Make it an occasion</div><h2>Thoughtful moments, made special.</h2><p>Planning a personal reset or a special treat? Ask us to tailor an experience to your occasion.</p></div><div class="packages"><article class="package"><div class="tag">For two</div><h3>Couples Experience</h3><p>Share a relaxing spa moment with someone special. Enquire about therapist availability and suitable arrangements.</p></article><article class="package"><div class="tag">A little extra care</div><h3>Personal Reset</h3><p>A treatment selected around your preferences, schedule and wellness goals.</p></article><article class="package"><div class="tag">Made for your occasion</div><h3>Special Requests</h3><p>Celebrations, hotel stays and private bookings can be discussed with our team.</p></article></div></div></section>
     <section class="section soft"><div class="wrap"><div class="section-head"><div class="eyebrow">Simple booking</div><h2>Your session in three steps.</h2></div><div class="steps"><div class="step"><b>01</b><h3>Choose your treatment</h3><p>Browse the menu and decide what kind of session you would like.</p></div><div class="step"><b>02</b><h3>Send an enquiry</h3><p>Tell us your preferred date, time, location and treatment through WhatsApp.</p></div><div class="step"><b>03</b><h3>Confirm your booking</h3><p>We'll confirm availability, explain the booking requirements and agree the details with you.</p></div></div></div></section>
     <section class="section" id="booking"><div class="wrap booking"><div><div class="eyebrow">Your time starts here</div><h2>Ready to feel the difference?</h2><p>Send us a booking enquiry and we'll help you arrange a mobile spa session at your preferred location.</p>
-        <form class="booking-form" id="bookingForm">
+        <form class="booking-form" id="bookingForm" method="POST" target="_blank" action="https://script.google.com/macros/s/AKfycbyDhbtatpxTLQ1BcShWRFG_NUBNKVV0cqxEwOwTZmpia0sQ8pszCFwTXJ0cQzLP1b-fGg/exec">
+          <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
           <h3>Make a booking enquiry</h3>
-          <p class="form-intro">Share your preferred treatment and appointment details. Your enquiry will open in WhatsApp for you to send to our team.</p>
+          <p class="form-intro">Share your preferred treatment and appointment details. Your enquiry will be recorded, then you can continue to WhatsApp.</p>
           <div class="form-grid">
             <div class="form-field">
               <label for="clientName">Your name *</label>
@@ -153,7 +154,7 @@
               <textarea id="bookingNotes" name="bookingNotes" placeholder="Any preferences or information you'd like us to know?"></textarea>
             </div>
           </div>
-          <button class="btn form-submit" type="submit">Continue to WhatsApp</button>
+          <button class="btn form-submit" type="submit">Submit booking enquiry</button>
           <p class="form-small">This is a booking enquiry, not an instant confirmation. We'll check availability with you. A ₦10,000 deposit is required and your appointment is confirmed only after payment is received and verified.</p>
         </form>
 <div class="payment-options"><article class="payment-card"><div class="eyebrow">Appointment deposit</div><h3>Confirm your booking with ₦10,000</h3><p>A ₦10,000 deposit is required to process and confirm an appointment. Choose either payment option below.</p></article><article class="payment-card"><h3>Option 1: Bank transfer</h3><p>Transfer the ₦10,000 appointment deposit using these details:</p><div class="bank-details"><div class="bank-detail"><span>Bank</span><strong>Moniepoint</strong></div><div class="bank-detail"><span>Account name</span><strong>Ebinabobo Blessing Ebi-Ofieafate</strong></div><div class="bank-detail"><span>Account number</span><strong id="accountNumber">8100288256</strong></div></div><button class="copy-btn" id="copyAccount" type="button">Copy account number</button><a class="btn" style="margin:10px 0 0 8px" href="https://wa.me/2348107670550?text=Hello%20Cr%C3%A9m%C3%A9%20D%C3%A9%20L%C3%A1%20Cr%C3%A9m%C3%A9%2C%20I%27ve%20made%20the%20%E2%82%A610%2C000%20appointment%20deposit.%20I%27d%20like%20to%20send%20my%20transfer%20receipt%20for%20verification.">Send transfer receipt</a></article><article class="payment-card"><h3>Option 2: Get payment details on WhatsApp</h3><p>Prefer to speak with us first? Message us on WhatsApp and request the payment details.</p><a class="btn" href="https://wa.me/2348107670550?text=Hello%20Cr%C3%A9m%C3%A9%20D%C3%A9%20L%C3%A1%20Cr%C3%A9m%C3%A9%2C%20I%27d%20like%20to%20book%20a%20session.%20Please%20send%20me%20the%20payment%20details%20for%20the%20%E2%82%A610%2C000%20appointment%20deposit.">Request payment details</a></article></div><p class="payment-note">Your appointment is not confirmed until the deposit has been received and verified by our team and your appointment details have been agreed. Therapist profiles are shared after the deposit, for your final confirmation.</p></div><div class="contact-box" id="contact"><div class="eyebrow">Get in touch</div><div class="contact-line"><strong>Call / WhatsApp</strong><a href="tel:+2348107670550">0810 767 0550</a> · <a href="tel:+2348100288256">0810 028 8256</a></div><div class="contact-line"><strong>Instagram</strong><a href="https://www.instagram.com/creme_de_la_creme45/" target="_blank" rel="noopener">@creme_de_la_creme45</a></div><div class="contact-line"><strong>TikTok</strong><a href="https://www.tiktok.com/@creme_de_la_creme45" target="_blank" rel="noopener">@creme_de_la_creme45</a></div><div class="contact-line"><strong>Service area</strong>Lagos, Nigeria · Home, hotel and office visits by appointment</div></div></div></section>
@@ -161,25 +162,6 @@
   <footer class="footer"><div class="wrap"><div class="footer-grid"><div><div class="brand"><img class="brand-mark" src="assets/creme-logo.jpg" alt="Crémé Dé Lá Crémé logo"><span class="brand-name">Crémé Dé Lá Crémé<small>THE MOBILE SPA</small></span></div><p>Relax. Recharge. Rejuvenate. Repeat.</p></div><div class="footer-links"><a href="#about">About</a><a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#booking">Book a session</a></div></div><div class="copyright">© <span id="year"></span> Crémé Dé Lá Crémé – The Mobile Spa. All rights reserved.</div></div></footer>
   <a class="wa-float" href="https://wa.me/2348107670550?text=Hello%2C%20I%27d%20like%20to%20make%20a%20booking%20enquiry." target="_blank" rel="noopener">WhatsApp us ↗</a>
   <script>
-document.getElementById('bookingForm').addEventListener('submit',function(event){
-  event.preventDefault();
-  const value=id=>document.getElementById(id).value.trim();
-  const message=[
-    "Hello Crémé Dé Lá Crémé, I'd like to make a booking enquiry.",
-    "",
-    "Name: "+value('clientName'),
-    "Phone: "+value('clientPhone'),
-    "Preferred treatment: "+value('treatment'),
-    "Preferred date: "+value('appointmentDate'),
-    "Preferred time: "+value('appointmentTime'),
-    "Service location: "+value('visitType'),
-    "Area / address: "+value('visitAddress'),
-    "Additional details: "+(value('bookingNotes')||"None"),
-    "",
-    "I understand that this is an enquiry and my appointment is not confirmed until availability is agreed and the ₦10,000 deposit is received and verified."
-  ].join("\n");
-  window.open("https://wa.me/2348107670550?text="+encodeURIComponent(message),"_blank","noopener");
-});
 const dateInput=document.getElementById('appointmentDate');
 const localToday=new Date();
 dateInput.min=new Date(localToday.getTime()-localToday.getTimezoneOffset()*60000).toISOString().slice(0,10);
